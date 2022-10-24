@@ -1,0 +1,16 @@
+<h1>Dinner</h1>
+<h2>오늘 {{name}}님의 저녁은 {{pick.name}} 입니다.</h2>
+<h3>menu list</h3>
+<ul>
+    {% for menu in menus %}
+    <li>{{menu.name}} {{menu.price}}</li>
+    {% endfor %}
+</ul>
+
+{% if pick.price > 20000 %}
+<p>비싸다</p>
+{% elif pick.price > 10000 %}
+<p>해볼만 하다</p>
+{% else %}
+<p>맛있겠다</p>
+{% endif %}

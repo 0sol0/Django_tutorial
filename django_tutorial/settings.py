@@ -1,3 +1,4 @@
+
 """
 Django settings for django_tutorial project.
 
@@ -34,7 +35,7 @@ INSTALLED_APPS = [
     # local app
     'articles',
     
-    # defult
+    # defult app
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
