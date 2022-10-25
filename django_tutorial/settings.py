@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # local app
     'articles',
+    'foods',
     
     # defult app
     'django.contrib.admin',
